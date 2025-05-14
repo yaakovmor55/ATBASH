@@ -10,8 +10,34 @@ namespace Atbash_Project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hi team");
+            Console.WriteLine(disc("abckjgl lfl90"));
             Console.WriteLine();
+        }
+
+
+        static string disc(string str_input)
+        {
+            string output = "";
+            str_input.ToLower();
+            foreach (char item in str_input)
+            {
+                if (char.IsLetter(item))
+                {
+                    int asciivalue = (int)item;
+                    int resulte = 97 + 122 - asciivalue;
+                    output += (char)resulte;
+                }
+                else
+                {
+                    output += (char)item;
+                }
+
+
+
+            }
+            return output;
         }
     }
 }
+
+
