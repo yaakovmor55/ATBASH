@@ -10,7 +10,11 @@ namespace Atbash_Project
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("hi team")
+
             Console.WriteLine("Hello world!");
+
         }
     }
 }
