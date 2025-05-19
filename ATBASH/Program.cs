@@ -10,7 +10,7 @@ namespace Atbash_Project
     {
         static void Main(string[] args)
         {
-            string SecretMeassege = "Lfi ulixvh ziv kivkzirmt uli z nzqli zggzxp lm gsv Arlmrhg vmvnb.\n" +
+            string SecretMeassege = "Lfi ulixvh.\n" +
                 "\nGsv ilxpvg fmrgh ziv ivzwb zmw dzrgrmt uli gsv hrtmzo.\nYlnyh szev yvvm kozxvw mvzi pvb olxzgrlmh." +
                 "\nMfpsyz urtsgvih ziv hgzmwrmt yb uli tilfmw rmurogizgrlm." +
                 "\nGsv zggzxp droo yv hfwwvm zmw hgilmt -- gsvb dlm’g hvv rg xlnrmt." +
@@ -18,6 +18,7 @@ namespace Atbash_Project
                 "\nErxglib rh mvzi. Hgzb ivzwb.";
             Printmeassge(DangerousWordes(SecretMeassege), disc(SecretMeassege));
             Console.ReadKey();
+            Console.WriteLine("hello");
         }
 
 
