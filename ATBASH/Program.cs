@@ -10,6 +10,8 @@ namespace Atbash_Project
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("this is dev");
+            Console.WriteLine("this is dev");
             string SecretMeassege = "Lfi ulixvh.\n" +
                 "\nGsv ilxpvg fmrgh ziv ivzwb zmw dzrgrmt uli gsv hrtmzo.\nYlnyh szev yvvm kozxvw mvzi pvb olxzgrlmh." +
                 "\nMfpsyz urtsgvih ziv hgzmwrmt yb uli tilfmw rmurogizgrlm." +
